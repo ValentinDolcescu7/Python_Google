@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+
+{% block content %}
+    <h3>Project developed in {{ name }}!</h3>
+    <p>Employers:</p>
+    <ul>
+    {% for employer in employers %}
+        <li>
+            {{employer.name}}
+        </li> 
+    {% endfor %}
+    </ul>
+
+    <img src="static/download.png" alt="Download image" height="100px" width="100px">
+{% endblock %}

@@ -1,0 +1,12 @@
+[{
+    "model": "auth.user",
+    "fields": {
+        "first_name": "Mihai",
+        "last_name": "Vladu",
+        "email": "mihai.vladu@scoalainformala.ro",
+        "username": "mihai",
+        "is_superuser": "0",
+        "is_staff": "0",
+        "password": "pbkdf2_sha256$320000$ZVm1YX9I3PEAWKSzSDubJs$Am9cfzfSEpuF91AhD9HgwAHOb+qCQiXZEmyxaivx0VQ="
+    }
+}]

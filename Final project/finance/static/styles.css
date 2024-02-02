@@ -1,0 +1,112 @@
+
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa; /* Light gray */
+            color: #212529; /* Dark gray */
+        }
+
+        nav {
+            background: #343a40; /* Dark gray */
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff; /* White */
+            text-decoration: none;
+        }
+
+        .navbar-toggler {
+            display: none;
+        }
+
+        .navbar-nav {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+
+        .nav-item {
+            margin: 0 15px;
+        }
+
+        .nav-link {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .nav-link:hover {
+            color: #007bff; /* Blue */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .alert-danger {
+            background-color: #dc3545; /* Red */
+            color: #ffffff;
+        }
+
+        .alert-success {
+            background-color: #28a745; /* Green */
+            color: #ffffff;
+        }
+
+        main {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        footer {
+            padding: 20px;
+            background: #343a40; /* Dark gray */
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .page-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #007bff; /* Blue */
+        }
+
+        .trading-interface {
+            background: #ffffff; /* White */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .trading-button {
+            background: #007bff; /* Blue */
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .trading-button:hover {
+            background: #0056b3; /* Darker blue */
+        }

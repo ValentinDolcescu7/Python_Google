@@ -1,0 +1,13 @@
+{% load static %}
+<html>
+    <head>
+        <title>
+            {% block title %} Base Template {% endblock %}
+        </title>
+    </head>
+    <body>
+        <h1>This is the header from base tmeplate!</h1>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>

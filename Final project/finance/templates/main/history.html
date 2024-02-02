@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}
+History
+{% endblock %}
+
+{% block main %}
+<table class="table mx-auto w-75">
+    <thead>
+        <tr>
+            <th class="text-start">Symbol</th>
+            <th class="text-end">Shares</th>
+            <th class="text-end">Price</th>
+            <th class="text-end">Transacted</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        {% for event in history %}
+        <tr>
+            <td class="text-start">{{ event.symbol }}</td>
+            <td class="text-end">{{ event.shares }}</td>
+            <td class="text-end">{{ event.price }}</td>
+            <td class="text-end">{{ event.datetime }}</td>
+        </tr>
+        {% endfor %}
+
+    </tbody>
+</table>
+{% endblock %}

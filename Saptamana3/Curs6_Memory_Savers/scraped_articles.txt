@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ro">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Liga Profesionistă de Fotbal</title>
+<meta name="description" content="⚽ Liga Profesionistă de Fotbal (LPF) este o structură sportivă a tuturor cluburilor profesioniste din România care evoluează în primul eşalon fotbalistic – Liga I. Prezentare echipe si jucatori, noutati, clasament, rezultate" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="#" />
+<base href="https://lpf.ro/">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
+<link href="css/plugin.css" rel="stylesheet" />
+<link href="css/style.css?v=1704495307" rel="stylesheet" />
+<link href="css/masterslider.css?v=1704495307" rel="stylesheet" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104307612-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Facebook Pixel Code -->
+<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/favicon//apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon//apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/favicon//apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon//apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/favicon//apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon//apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon//apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon//apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon//android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon//favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon//favicon-16x16.png">
+<link rel="manifest" href="images/favicon//manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/favicon//ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--Page Wrapper starts-->
+<div class="page-wrapper fixed-footer">
+<header class="header transparent scroll-hide">
+<div class="header-left-bg"></div>
+<div class="header-right-bg"></div>
+<div class="site-navbar-wrap v1">
+<div class="container">
+  <div class="site-navbar">
+    <div class="row align-items-center">
+      <div class="col-md-1 mobile-50 col-6 nopadding"><a class="navbar-brand" href="https://lpf.ro"><img src="images/logo/logo-lpf.png" alt="logo" class="img-fluid"></a></div>
+      <div class="col-md-8 mobile-50 col-6 nopadding" id="snav">
+        <nav class="site-navigation">
+          <div class="container nopadding">
+            <ul class="site-menu js-clone-nav d-none d-lg-block hiddenMobile">
+              <li><a href="https://lpf.ro" title="Liga profesionistă de fotbal">Acasă</a></li>
+              <li><a href="cluburi" title="Cluburi Liga 1">Cluburi</a></li>
+              <li><a href="liga-1" title="Clasament Liga 1">SUPERLIGA</a></li>
+              <li><a href="noutati" title="Noutăți">Noutăți</a></li>
+              <li><a href="var" title="Implementare sistem VAR">VAR</a></li>
+              <li><a href="buletin-informativ" title="Buletin informativ">Buletin informativ</a></li>
+              <li class="hasChild"><a href="comisia-de-business" title="Comisii LPF">Comisii <i class="icofont-simple-down"></i></a> 
+                 <ul class="childMenu">
+                    <li><a href="comisia-de-business" title="Comisia de business">Comisia de business</a></li>
+                     <li><a href="comisia-de-fotbal" title="Comisia de fotbal">Comisia de fotbal</a></li>
+                 </ul>
+              </li>
+              <li><a href="despre-lpf" title="Despre LPF">Despre</a></li>
+              <li><a href="contact" title="Contact LPF">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="d-lg-none sm-right mobile-navigation-button"><a href="#" class="mobile-bar js-menu-toggle"><span class="ion-android-menu"></span></a></div>
+      </div>
+      <div class="col-md-2 col-6 nopadding hiddenMobile">
+        <div class="search-header-bg"></div>
+        <div class="search-header">
+          <form method="post" action="cautare.php">
+            <input type="text" size="10" name="s" placeholder="Caută ...">
+            <button type="submit"><i class="ion-ios-search" aria-hidden="true"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-1 col-6 nopadding text-center hiddenMobile">
+        <div class="casa-liga-logo"><img src="images/logo/Superliga-Cupa.png" style="height: 53px;"></div>
+      </div>
+    </div>
+    <!--mobile-menu starts -->
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close  js-menu-toggle"> <span class="ion-ios-close-empty"></span> </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    <!--mobile-menu ends--> 
+  </div></div>
+</header>
+<div class="hero v1 section-padding section-heading-homepage">
+  <div class="overlay op-6"></div>
+  <div class="container">
+    <div class="row d-lg-none">
+		<div class="col-md-6 mobile-50" style="padding-right: 0;"><button class="header-section-js js-news active">Noutăti</button></div>
+      <div class="col-md-6 mobile-50" style="padding-left: 0;"><button class="header-section-js js-meciuri">Meciuri</button></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-8 text-left" id="news-section"> 
+        <div class="slider-homepage">
+          <div id="P_masterslider" class="master-slider-parent ms-partialview-template ms-parent-id-54" style="max-width:100%;" > 
+            <div id="masterslider" class="master-slider ms-skin-light-3">
+				<div class="ms-slide" url_stire="noutati/buletin-informativ-nr-194/4770" data-delay="3" data-fill-mode="fill"><img src="images/blank.gif" alt="" title="" data-src="imagini-stiri/stire/800/6597f9a36b2f5normal-194.png" class="lazyload" />
+                <div class="ms-info" url_stire="noutati/buletin-informativ-nr-194/4770">
+                  <h3>Buletin informativ - Nr. 194</h3>
+                  <p>În fiecare weekend, Liga Profesionistă de Fotbal prezintă publicului un nou număr al Buletinului Informativ, iar acum ne aflăm la ediția cu  ...</p>
+                </div>
+		  	</div><div class="ms-slide" url_stire="noutati/sarbatori-fericite/4768" data-delay="3" data-fill-mode="fill"><img src="images/blank.gif" alt="" title="" data-src="imagini-stiri/stire/800/6586a0e2922a9Craciun-site.jpg" class="lazyload" />
+                <div class="ms-info" url_stire="noutati/sarbatori-fericite/4768">
+                  <h3>Sărbători fericite!</h3>
+                  <p>Cu ocazia sărbătorilor de iarnă, vă transmit cele mai călduroase urări de bucurie, sănătate și fericire! În calitate de Președinte al Ligii  ...</p>
+                </div>
+		  	</div><div class="ms-slide" url_stire="noutati/superliga-vedetele-etapei-a-21-a/4767" data-delay="3" data-fill-mode="fill"><img src="images/blank.gif" alt="" title="" data-src="imagini-stiri/stire/800/65869d5b3bd24florescu.jpeg" class="lazyload" />
+                <div class="ms-info" url_stire="noutati/superliga-vedetele-etapei-a-21-a/4767">
+                  <h3>SUPERLIGA - Vedetele etapei a 21-a</h3>
+                  <p>Deţinătorii drepturilor tv şi Liga Profesionistă de Fotbal desemnează la finalul fiecărui meci cel mai bun jucător. Iată care au fost fotbal ...</p>
+                </div>
+		  	</div>            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4 text-center homepage-urmatorul-meci" id="next-match-section">
+          <table class="text-center" style="width:100%;">
+          <tr>
+            <td colspan="3" class="homepage-etapa"><span class="nr_etapa">Etapa 22</span> <span class="sponsor">SUPERLIGA</span></td>
+          </tr>
+          <tr>
+            <td style="width:23%;padding-left:10%;"><img data-src="imagini-stiri/echipa/80/5e5372b3b92e3echipa__0010_Layer-3.png" class="logo-slider lazyload"></td>
+            <td style="width:33%;"></td>
+            <td style="width:23%;padding-right:10%;"><img data-src="imagini-stiri/echipa/80/64bfac6b4b7ff649b0a5004cceiasi.png" class="logo-slider lazyload"></td>
+          </tr>
+          <tr>
+            <td style="width:23%;padding-left:10%;" class="h_nume-echipa">OSK</td>
+            <td style="width:33%;" class="h_versus">VS</td>
+            <td style="width:23%;padding-right:10%;" class="h_nume-echipa">IASI</td>
+          </tr>
+          <tr>
+            <td colspan="3" class="homepage-etapa-footer"><span>Vineri, 19 ianuarie 2024</span></td>
+          </tr>
+        </table>      </div>
+    </div>
+
+  </div>
+</div>
+    
+    <div class="touchScroll lista-echipe-scroll grabbable" style="position: relative;border: 0;">
+  <ul class="lista-echipe-h-full">
+	  <li><a href="cluburi/afc-hermannstadt/19" title="AFC HERMANNSTADT" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/62bee3f4921eeherman.png" alt="AFC HERMANNSTADT"></a></li><li><a href="cluburi/fc-cfr-1907-cluj/5" title="FC CFR 1907 CLUJ" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/5e53726d5ac83echipa__0005_Layer-8.png" alt="FC CFR 1907 CLUJ"></a></li><li><a href="cluburi/sc-otelul-galati/34" title="SC OTELUL GALATI" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/649b0bdd69d98asc_otelul_galati.svg.1687162182.png" alt="SC OTELUL GALATI"></a></li><li><a href="cluburi/dinamo-bucuresti/14" title="DINAMO BUCURESTI" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/649b0b6cc9b86dinamo.1476205872.png" alt="DINAMO BUCURESTI"></a></li><li><a href="cluburi/fcu-1948-craiova/29" title="FCU 1948 CRAIOVA" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/60db044521f5ccraiova.png" alt="FCU 1948 CRAIOVA"></a></li><li><a href="cluburi/fc-rapid-1923/30" title="FC RAPID 1923" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/60db044c6364crapid.png" alt="FC RAPID 1923"></a></li><li><a href="cluburi/fc-petrolul/32" title="FC PETROLUL" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/62bee38208ba3fcpetrolul.png" alt="FC PETROLUL"></a></li><li><a href="cluburi/fc-voluntari/6" title="FC VOLUNTARI" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/60f19bd06b62flogo_fc_voluntari.png" alt="FC VOLUNTARI"></a></li><li><a href="cluburi/fc-botosani/8" title="FC BOTOSANI" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/62d704cb31406fcbotosanilogo.png" alt="FC BOTOSANI"></a></li><li><a href="cluburi/fc-universitatea-cluj/33" title="FC UNIVERSITATEA CLUJ" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/62bee393b786dfcucluj.png" alt="FC UNIVERSITATEA CLUJ"></a></li><li><a href="cluburi/sepsi-osk/16" title="SEPSI OSK" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/5e5372b3b92e3echipa__0010_Layer-3.png" alt="SEPSI OSK"></a></li><li><a href="cluburi/fcsb/3" title="FCSB" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/5e537262549aaechipa__0007_Layer-6.png" alt="FCSB"></a></li><li><a href="cluburi/universitatea-craiova/9" title="UNIVERSITATEA CRAIOVA" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/5e53728820ce1echipa__0011_Layer-2.png" alt="UNIVERSITATEA CRAIOVA"></a></li><li><a href="cluburi/uta-arad/22" title="UTA ARAD" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/5f537d3010412logo-uta.1597331445.png" alt="UTA ARAD"></a></li><li><a href="cluburi/poli-iasi/10" title="POLI IASI" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/64bfac6b4b7ff649b0a5004cceiasi.png" alt="POLI IASI"></a></li><li><a href="cluburi/fc-farul-constanta/12" title="FC FARUL CONSTANTA" class="header-lista-echipa"><img src="imagini-stiri/echipa/72/62da989e4786c60e932705a209logo_farul_constanta.png" alt="FC FARUL CONSTANTA"></a></li>  </ul>
+</div>  <div class="container main-content">
+    <div class="row">
+      <div class="col-md-12 col-lg-8">
+		<a href="noutati/buletin-informativ-nr-194/4770" title="Buletin informativ - Nr. 194"><div class="stire-featured stire-bg">
+				  <div class="stire-content" style="background: #1f1f1f;">
+					<div class="stire-main-img"><img data-src="imagini-stiri/stire/800/6597f9a36b2f5normal-194.png" class="stire-img lazyload hiddenMobile"><img data-src="imagini-stiri/stire/500/6597f9a36b2f5normal-194.png" class="stire-img lazyload d-lg-none"></div>
+					<div class="stire-info"><span class="ncat"><span class="post_cat" style="background-color: #009c49;">Buletin informativ</span>  <span class="post_date" style="color: #FFF;">05 January, 2024</span></span></div>
+					<div class="stire-titlu">
+					  <h2 style="color:#FFF;">Buletin informativ - Nr. 194</h2>
+					</div>
+					<p style="color:#FFF;">În fiecare weekend, Liga Profesionistă de Fotbal prezintă publicului un nou număr al Buletinului Informativ, iar acum ne aflăm la ediția cu numărul 194. Deschizându-se cu un editorial semnat de secretarul general al LPF, Justin Ștefan, sub titlul "2024, bine ai venit!", ...</p>
+				  </div>
+				</div></a>        <div class="stiri-flex">
+			<div class="stire-bg">
+				<a href="noutati/buletin-informativ-nr-193/4769" title="Buletin informativ - Nr. 193"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/658e91e78c158normal-193.png" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Buletin informativ</span></span> <span class="post_date"> 29 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>Buletin informativ - Nr. 193</h3>
+				  </div>
+				  <p>În fiecare weekend, Liga Profesionistă de Fotbal prezintă publicului o nouă ediție a Buletinului Informativ, ajungând acum la numărul 193. Această ediție începe cu mesaju ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/sarbatori-fericite/4768" title="Sărbători fericite!"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/6586a0e2922a9Craciun-site.jpg" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Comunicat de presă</span></span> <span class="post_date"> 24 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>Sărbători fericite!</h3>
+				  </div>
+				  <p>Cu ocazia sărbătorilor de iarnă, vă transmit cele mai călduroase urări de bucurie, sănătate și fericire! În calitate de Președinte al Ligii Profesioniste de Fotbal, dores ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/superliga-vedetele-etapei-a-21-a/4767" title="SUPERLIGA - Vedetele etapei a 21-a"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/65869d5b3bd24florescu.jpeg" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Știri</span></span> <span class="post_date"> 23 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>SUPERLIGA - Vedetele etapei a 21-a</h3>
+				  </div>
+				  <p>Deţinătorii drepturilor tv şi Liga Profesionistă de Fotbal desemnează la finalul fiecărui meci cel mai bun jucător. Iată care au fost fotbaliştii evidenţiaţi în partidele ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/buletin-informativ-nr-192/4766" title="Buletin informativ - Nr. 192"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/658541101e02anormal-192.png" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Buletin informativ</span></span> <span class="post_date"> 22 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>Buletin informativ - Nr. 192</h3>
+				  </div>
+				  <p>În fiecare weekend, Liga Profesionistă de Fotbal aduce în atenția publicului un nou număr al Buletinului Informativ, ajungând acum la ediția cu numărul 192. Această ediți ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/dinamo-fc-voluntari-ramas-bun-2023/4759" title="Dinamo - FC Voluntari. Rămas bun, 2023!"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/657b0be14b6208-21-BUN.jpeg" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Avancronică</span></span> <span class="post_date"> 22 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>Dinamo - FC Voluntari. Rămas bun, 2023!</h3>
+				  </div>
+				  <p>Dinamo - FC Voluntari, vineri, 22 decembrie – ora 20.30 Cele două echipe s-au mai întâlnit în principala competiţie internă de 22 de ori, de 17 ori s-au impus bucureşteni ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/otelul-fc-botosani-invincibilitatea-lui-dorinel/4758" title="Oţelul - FC Botoşani. Invincibilitatea lui Dorinel"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/657b0b4e4a7117-21-otelul.JPG" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Avancronică</span></span> <span class="post_date"> 22 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>Oţelul - FC Botoşani. Invincibilitatea lui Dorinel</h3>
+				  </div>
+				  <p>Oţelul - FC Botoşani, vineri, 22 decembrie – ora 17.30 Oţelul şi FC Botoşani s-au mai întâlnit în principala competiţie internă de cinci ori, de două ori s-au impus oaspe ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/cfr-u-derby-a-la-cluj-editia-34/4757" title="CFR – U. Derby a la Cluj – ediția 34"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/657b0adaaaf686-21-cfr.jpg" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Avancronică</span></span> <span class="post_date"> 21 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>CFR – U. Derby a la Cluj – ediția 34</h3>
+				  </div>
+				  <p>CFR 1907 Cluj - Universitatea Cluj, joi, 21 decembrie – ora 19.45 Etapa a 21-a programează un duel de gală, cel dintre CFR Cluj şi Universitatea Cluj, un derby mult aştep ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/fc-hermannstadt-sepsi-osk-episodul-12/4756" title="FC Hermannstadt – Sepsi OSK. Episodul 12"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/657b0a74b70595-21-fchermannstadt.jpg" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Avancronică</span></span> <span class="post_date"> 21 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>FC Hermannstadt – Sepsi OSK. Episodul 12</h3>
+				  </div>
+				  <p>FC Hermannstadt – Sepsi OSK, joi, 21 decembrie – ora 17.00 FC Hermannstadt şi Sepsi OSK s-au mai întâlnit în principala competiţie internă de 11 ori, de două ori s-au imp ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/decizii-ale-comisiei-de-disciplina-a-frf-20122023/4765" title="Decizii ale Comisiei de Disciplină a FRF – 20.12.2023"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/6582d4f3f0e94C.Disciplina.jpg" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Comunicat de presă</span></span> <span class="post_date"> 20 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>Decizii ale Comisiei de Disciplină a FRF – 20.12.2023</h3>
+				  </div>
+				  <p>Întrunită miercuri, 20 decembrie 2023, Comisia de Disciplină din cadrul FRF a luat următoarele hotărâri: Mustacă Robert Cristian vs. AFC UTA Arad - Neexecutare Hotărâre C ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/decizii-ale-cnsl-din-cadrul-frf-20122023/4764" title="Decizii ale CNSL din cadrul FRF – 20.12.2023"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/6582b99492a39cnsl.jpg" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Comunicat de presă</span></span> <span class="post_date"> 20 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>Decizii ale CNSL din cadrul FRF – 20.12.2023</h3>
+				  </div>
+				  <p>Întrunită miercuri, 20 decembrie 2023, Camera Națională pentru Soluționarea Litigiilor din cadrul FRF a luat următoarele hotărâri: LICĂ VIOREL ȘTEFAN vs. CSM POLITEHNICA  ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/farul-rapid-spectacol-garantat-la-meciul-2000/4755" title="Farul – Rapid. Spectacol garantat la meciul 2000"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/657b09ceac9d24-21-farul.JPG" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Avancronică</span></span> <span class="post_date"> 20 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>Farul – Rapid. Spectacol garantat la meciul 2000</h3>
+				  </div>
+				  <p>Farul Constanța – FC Rapid 1923, miercuri, 20 decembrie – ora 20.30 De la revenirea giuleştenilor pe prima scenă din 2021, cele două echipe s-au mai întânit în principala ...</p>
+				</div>
+			  </a></div><div class="stire-bg">
+				<a href="noutati/uta-universitatea-pentru-sarbatori-cat-mai-linistite/4754" title="UTA – Universitatea. Pentru sărbători cât mai liniștite"><div class="stire-content">
+				  <div class="stire-main-img"><img data-src="imagini-stiri/stire/500/657b094f650733-21-uta.jpg" class="stire-img lazyload"></div>
+				  <div class="stire-info"><span class="ncat"><span class="post_cat">Avancronică</span></span> <span class="post_date"> 20 December, 2023</span></div>
+				  <div class="stire-titlu">
+					<h3>UTA – Universitatea. Pentru sărbători cât mai liniștite</h3>
+				  </div>
+				  <p>UTA Arad - Universitatea Craiova, miercuri, 20 decembrie – ora 17.30 De la revenirea arădenilor pe prima scenă din 2020, cele două echipe s-au mai întâlnit de şapte ori î ...</p>
+				</div>
+			  </a></div>        </div>
+      </div>
+      <div class="col-md-12 col-lg-4">
+		      
+          <style>
+          .social_link {
+            background: #009c49;
+            padding: 4px 10px 4px 36px;
+            border-radius: 6px;
+            width: 30%;
+            margin-top: 5px;
+          }
+
+          .social_link i {
+            color:#FFF;
+            font-size: 20px;
+            position: absolute;
+            top: 3px;
+            left: 8px;
+          }
+              
+          .flex_social {
+              flex-wrap: wrap;
+          }
+              
+          .flex_social a {
+              font-size: 11px;
+              color: #FFF;
+          }
+          </style>
+          <div class="text-center" style="margin-bottom: 10px;"><strong>Urmărește Liga Profesionistă de Fotbal pe:</strong></div>
+          <div class="d-flex justify-content-between flex_social">
+          <a href="https://www.facebook.com/lpf.ro/" class="social_link"><i class="fa-brands fa-facebook"></i> Facebook</a>
+          <a href="https://www.youtube.com/channel/UCP_psry6aIzJJka7fbXbYXA" class="social_link"><i class="fa-brands fa-youtube"></i> Youtube</a>
+          <a href="https://www.linkedin.com/company/liga-profesionista-de-fotbal/" class="social_link"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+          <a href="https://twitter.com/lpf_ro" class="social_link"><i class="fa-brands fa-twitter"></i> Twitter RO</a>
+          <a href="https://twitter.com/lpfromaniaen" class="social_link"><i class="fa-brands fa-twitter"></i> Twitter EN</a>
+          <a href="https://twitter.com/superliga_lpf" class="social_link"><i class="fa-brands fa-twitter"></i> SUPERLIGA</a>
+         
+          </div>
+          <br />
+          <a href="https://lpf.ro/magazin" target="new" title="Magazin LPF">
+              <img data-src="images/100-sidebar.png" class="hiddenMobile lazyload" style="width: 100%;">
+              <img data-src="images/100-wide-mobile.png" class="d-lg-none lazyload" style="width: 100%;">
+          </a>
+          <br /><br />
+          <a href="https://www.imgarena.com/data-collectors/country/romania/" target="new" title="IMG Arena">
+              <img data-src="assets/images/imgarena-sidebar.jpg" class="lazyload" style="width: 100%;">
+          </a>
+          <br /><br />
+		          <div class="clasament-sidebar bg-white">
+          <div class="widget-title">Clasament</div>
+      		<table class="side-clasament"><tr><td colspan="3"></td><td class="text-center">M</td><td class="text-center">G</td><td class="text-center">P</td></tr><tr>
+              <td>1</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/5e537262549aaechipa__0007_Layer-6.png"></td>
+              <td><a href="cluburi/fcsb/3/clasament" title="FCSB">FCSB</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">18</td>
+              <td class="text-center" style="font-weight: bold;">44</td>
+            </tr><tr>
+              <td>2</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/5e53726d5ac83echipa__0005_Layer-8.png"></td>
+              <td><a href="cluburi/fc-cfr-1907-cluj/5/clasament" title="FC CFR 1907 CLUJ">FC CFR 1907 Cluj</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">16</td>
+              <td class="text-center" style="font-weight: bold;">36</td>
+            </tr><tr>
+              <td>3</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/5e53728820ce1echipa__0011_Layer-2.png"></td>
+              <td><a href="cluburi/universitatea-craiova/9/clasament" title="UNIVERSITATEA CRAIOVA">Universitatea Craiova</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">8</td>
+              <td class="text-center" style="font-weight: bold;">34</td>
+            </tr><tr>
+              <td>4</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/60db044c6364crapid.png"></td>
+              <td><a href="cluburi/fc-rapid-1923/30/clasament" title="FC RAPID 1923">FC RAPID 1923</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">12</td>
+              <td class="text-center" style="font-weight: bold;">33</td>
+            </tr><tr>
+              <td>5</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/5e5372b3b92e3echipa__0010_Layer-3.png"></td>
+              <td><a href="cluburi/sepsi-osk/16/clasament" title="SEPSI OSK">SEPSI OSK</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">2</td>
+              <td class="text-center" style="font-weight: bold;">30</td>
+            </tr><tr>
+              <td>6</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/62da989e4786c60e932705a209logo_farul_constanta.png"></td>
+              <td><a href="cluburi/fc-farul-constanta/12/clasament" title="FC FARUL CONSTANTA">FC FARUL Constanta</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">-1</td>
+              <td class="text-center" style="font-weight: bold;">30</td>
+            </tr><tr>
+              <td>7</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/62bee3f4921eeherman.png"></td>
+              <td><a href="cluburi/afc-hermannstadt/19/clasament" title="AFC HERMANNSTADT">AFC Hermannstadt</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">4</td>
+              <td class="text-center" style="font-weight: bold;">29</td>
+            </tr><tr>
+              <td>8</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/62bee393b786dfcucluj.png"></td>
+              <td><a href="cluburi/fc-universitatea-cluj/33/clasament" title="FC UNIVERSITATEA CLUJ">FC Universitatea Cluj</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">-3</td>
+              <td class="text-center" style="font-weight: bold;">29</td>
+            </tr><tr>
+              <td>9</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/60db044521f5ccraiova.png"></td>
+              <td><a href="cluburi/fcu-1948-craiova/29/clasament" title="FCU 1948 CRAIOVA">FCU 1948</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">0</td>
+              <td class="text-center" style="font-weight: bold;">27</td>
+            </tr><tr>
+              <td>10</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/62bee38208ba3fcpetrolul.png"></td>
+              <td><a href="cluburi/fc-petrolul/32/clasament" title="FC PETROLUL">FC PETROLUL</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">0</td>
+              <td class="text-center" style="font-weight: bold;">27</td>
+            </tr><tr>
+              <td>11</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/649b0bdd69d98asc_otelul_galati.svg.1687162182.png"></td>
+              <td><a href="cluburi/sc-otelul-galati/34/clasament" title="SC OTELUL GALATI">SC OTELUL Galati</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">0</td>
+              <td class="text-center" style="font-weight: bold;">26</td>
+            </tr><tr>
+              <td>12</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/5f537d3010412logo-uta.1597331445.png"></td>
+              <td><a href="cluburi/uta-arad/22/clasament" title="UTA ARAD">UTA Arad</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">-5</td>
+              <td class="text-center" style="font-weight: bold;">24</td>
+            </tr><tr>
+              <td>13</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/60f19bd06b62flogo_fc_voluntari.png"></td>
+              <td><a href="cluburi/fc-voluntari/6/clasament" title="FC VOLUNTARI">FC Voluntari</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">-8</td>
+              <td class="text-center" style="font-weight: bold;">24</td>
+            </tr><tr>
+              <td>14</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/64bfac6b4b7ff649b0a5004cceiasi.png"></td>
+              <td><a href="cluburi/poli-iasi/10/clasament" title="POLI IASI">POLI Iasi</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">-6</td>
+              <td class="text-center" style="font-weight: bold;">23</td>
+            </tr><tr>
+              <td>15</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/649b0b6cc9b86dinamo.1476205872.png"></td>
+              <td><a href="cluburi/dinamo-bucuresti/14/clasament" title="DINAMO BUCURESTI">DINAMO Bucuresti</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">-18</td>
+              <td class="text-center" style="font-weight: bold;">16</td>
+            </tr><tr>
+              <td>16</td>
+              <td class="text-center"><img src="imagini-stiri/echipa/32/62d704cb31406fcbotosanilogo.png"></td>
+              <td><a href="cluburi/fc-botosani/8/clasament" title="FC BOTOSANI">FC Botosani</a></td>
+              <td class="text-center">21</td>
+              <td class="text-center">-19</td>
+              <td class="text-center" style="font-weight: bold;">12</td>
+            </tr></table>          <div class="widget-row-footer"><a href="liga-1/">
+            <div class="widget-button">
+              <div class="widget-button-text">Statistici detaliate</div>
+            </div>
+            </a> </div>
+        </div>
+		           <br />
+          <div class="program-etapa bg-white"><div class="widget-title">Etapa 21 - Superliga</div><div class="widget-row-day"> Marți, 19 decembrie</div><div class="widget-row-day-hour">17:30</div> <div class="widget-row-flex">
+            <div class="echipa-1"><a href="cluburi/fcu-1948-craiova/29/calendar"><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/60db044521f5ccraiova.png"></div> <div style="width:40px;display:inline-block;">FCU</div></a></div>
+            <div class="echipa-scor"><span style="background:#009c49">2</span><span style="background:#009c49">0</span></div>
+            <div class="echipa-2"><a href="cluburi/fc-petrolul/32/calendar"><div style="width:40px;display:inline-block;">FCP</div><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/62bee38208ba3fcpetrolul.png"></div></a></div>
+          </div><div class="widget-row-day-hour">20:30</div> <div class="widget-row-flex">
+            <div class="echipa-1"><a href="cluburi/poli-iasi/10/calendar"><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/64bfac6b4b7ff649b0a5004cceiasi.png"></div> <div style="width:40px;display:inline-block;">IASI</div></a></div>
+            <div class="echipa-scor"><span style="background:#009c49">1</span><span style="background:#009c49">3</span></div>
+            <div class="echipa-2"><a href="cluburi/fcsb/3/calendar"><div style="width:40px;display:inline-block;">FCSB</div><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/5e537262549aaechipa__0007_Layer-6.png"></div></a></div>
+          </div><div class="widget-row-day"> Miercuri, 20 decembrie</div><div class="widget-row-day-hour">17:30</div> <div class="widget-row-flex">
+            <div class="echipa-1"><a href="cluburi/uta-arad/22/calendar"><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/5f537d3010412logo-uta.1597331445.png"></div> <div style="width:40px;display:inline-block;">UTA</div></a></div>
+            <div class="echipa-scor"><span style="background:#009c49">2</span><span style="background:#009c49">2</span></div>
+            <div class="echipa-2"><a href="cluburi/universitatea-craiova/9/calendar"><div style="width:40px;display:inline-block;">UCV</div><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/5e53728820ce1echipa__0011_Layer-2.png"></div></a></div>
+          </div><div class="widget-row-day-hour">20:30</div> <div class="widget-row-flex">
+            <div class="echipa-1"><a href="cluburi/fc-farul-constanta/12/calendar"><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/62da989e4786c60e932705a209logo_farul_constanta.png"></div> <div style="width:40px;display:inline-block;">FAR</div></a></div>
+            <div class="echipa-scor"><span style="background:#009c49">0</span><span style="background:#009c49">0</span></div>
+            <div class="echipa-2"><a href="cluburi/fc-rapid-1923/30/calendar"><div style="width:40px;display:inline-block;">RAP</div><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/60db044c6364crapid.png"></div></a></div>
+          </div><div class="widget-row-day"> Joi, 21 decembrie</div><div class="widget-row-day-hour">17:00</div> <div class="widget-row-flex">
+            <div class="echipa-1"><a href="cluburi/afc-hermannstadt/19/calendar"><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/62bee3f4921eeherman.png"></div> <div style="width:40px;display:inline-block;">FCH</div></a></div>
+            <div class="echipa-scor"><span style="background:#009c49">1</span><span style="background:#009c49">1</span></div>
+            <div class="echipa-2"><a href="cluburi/sepsi-osk/16/calendar"><div style="width:40px;display:inline-block;">OSK</div><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/5e5372b3b92e3echipa__0010_Layer-3.png"></div></a></div>
+          </div><div class="widget-row-day-hour">19:45</div> <div class="widget-row-flex">
+            <div class="echipa-1"><a href="cluburi/fc-cfr-1907-cluj/5/calendar"><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/5e53726d5ac83echipa__0005_Layer-8.png"></div> <div style="width:40px;display:inline-block;">CFR</div></a></div>
+            <div class="echipa-scor"><span style="background:#009c49">4</span><span style="background:#009c49">0</span></div>
+            <div class="echipa-2"><a href="cluburi/fc-universitatea-cluj/33/calendar"><div style="width:40px;display:inline-block;">UCJ</div><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/62bee393b786dfcucluj.png"></div></a></div>
+          </div><div class="widget-row-day"> Vineri, 22 decembrie</div><div class="widget-row-day-hour">17:30</div> <div class="widget-row-flex">
+            <div class="echipa-1"><a href="cluburi/sc-otelul-galati/34/calendar"><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/649b0bdd69d98asc_otelul_galati.svg.1687162182.png"></div> <div style="width:40px;display:inline-block;">OGL</div></a></div>
+            <div class="echipa-scor"><span style="background:#009c49">0</span><span style="background:#009c49">2</span></div>
+            <div class="echipa-2"><a href="cluburi/fc-botosani/8/calendar"><div style="width:40px;display:inline-block;">FCB</div><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/62d704cb31406fcbotosanilogo.png"></div></a></div>
+          </div><div class="widget-row-day-hour">20:30</div> <div class="widget-row-flex">
+            <div class="echipa-1"><a href="cluburi/dinamo-bucuresti/14/calendar"><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/649b0b6cc9b86dinamo.1476205872.png"></div> <div style="width:40px;display:inline-block;">DIN</div></a></div>
+            <div class="echipa-scor"><span style="background:#009c49">1</span><span style="background:#009c49">0</span></div>
+            <div class="echipa-2"><a href="cluburi/fc-voluntari/6/calendar"><div style="width:40px;display:inline-block;">FCV</div><div style="display:inline-block;text-align:center;width:40px;"><img src="imagini-stiri/echipa/32/60f19bd06b62flogo_fc_voluntari.png"></div></a></div>
+          </div><div class="widget-row-footer"><a href="liga-1/">
+            <div class="widget-button">
+              <div class="widget-button-text">Program complet </div>
+            </div>
+            </a> </div>
+        </div>      </div>
+    </div>
+	 <br />
+	<div class="row">
+		<div class="col-md-12 nopadding">
+			<div class="swiper-container coupon-wrap">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+        <a style="display: block" href="cluburi/dinamo-bucuresti/14" title="DINAMO BUCURESTI"><div class="club-card">
+          <div class="club-logo"><span class="club-title">DINAMO Bucuresti</span><img data-src="files/echipa/649b0b6cc9b86dinamo.1476205872.png" class="lazyload"></div>
+			<div class="club-detalii">Detalii<br /><i class="ion-arrow-right-c"></i></div>
+        </div></a>
+      </div><div class="swiper-slide">
+        <a style="display: block" href="cluburi/fcu-1948-craiova/29" title="FCU 1948 CRAIOVA"><div class="club-card">
+          <div class="club-logo"><span class="club-title">FCU 1948</span><img data-src="files/echipa/60db044521f5ccraiova.png" class="lazyload"></div>
+			<div class="club-detalii">Detalii<br /><i class="ion-arrow-right-c"></i></div>
+        </div></a>
+      </div><div class="swiper-slide">
+        <a style="display: block" href="cluburi/sc-otelul-galati/34" title="SC OTELUL GALATI"><div class="club-card">
+          <div class="club-logo"><span class="club-title">SC OTELUL Galati</span><img data-src="files/echipa/649b0bdd69d98asc_otelul_galati.svg.1687162182.png" class="lazyload"></div>
+			<div class="club-detalii">Detalii<br /><i class="ion-arrow-right-c"></i></div>
+        </div></a>
+      </div><div class="swiper-slide">
+        <a style="display: block" href="cluburi/poli-iasi/10" title="POLI IASI"><div class="club-card">
+          <div class="club-logo"><span class="club-title">POLI Iasi</span><img data-src="files/echipa/64bfac6b4b7ff649b0a5004cceiasi.png" class="lazyload"></div>
+			<div class="club-detalii">Detalii<br /><i class="ion-arrow-right-c"></i></div>
+        </div></a>
+      </div><div class="swiper-slide">
+        <a style="display: block" href="cluburi/universitatea-craiova/9" title="UNIVERSITATEA CRAIOVA"><div class="club-card">
+          <div class="club-logo"><span class="club-title">Universitatea Craiova</span><img data-src="files/echipa/5e53728820ce1echipa__0011_Layer-2.png" class="lazyload"></div>
+			<div class="club-detalii">Detalii<br /><i class="ion-arrow-right-c"></i></div>
+        </div></a>
+      </div><div class="swiper-slide">
+        <a style="display: block" href="cluburi/fcsb/3" title="FCSB"><div class="club-card">
+          <div class="club-logo"><span class="club-title">FCSB</span><img data-src="files/echipa/5e537262549aaechipa__0007_Layer-6.png" class="lazyload"></div>
+			<div class="club-detalii">Detalii<br /><i class="ion-arrow-right-c"></i></div>
+        </div></a>
+      </div><div class="swiper-slide">
+        <a style="display: block" href="cluburi/fc-voluntari/6" title="FC VOLUNTARI"><div class="club-card">
+          <div class="club-logo"><span class="club-title">FC Voluntari</span><img data-src="files/echipa/60f19bd06b62flogo_fc_voluntari.png" class="lazyload"></div>
+			<div class="club-detalii">Detalii<br /><i class="ion-arrow-right-c"></i></div>
+        </div></a>
+      </div><div class="swiper-slide">
+        <a style="display: block" href="cluburi/uta-arad/22" title="UTA ARAD"><div class="club-card">
+          <div class="club-logo"><span class="club-title">UTA Arad</span><img data-src="files/echipa/5f537d3010412logo-uta.1597331445.png" class="lazyload"></div>
+			<div class="club-detalii">Detalii<br /><i class="ion-arrow-right-c"></i></div>
+        </div></a>
+      </div>				</div>
+			</div>
+			<div class="slider-btn v1 coupon-next hiddenMobile"><i class="ion-arrow-right-c"></i></div>
+			<div class="slider-btn v1 coupon-prev hiddenMobile"><i class="ion-arrow-left-c"></i></div>
+		</div>
+	</div>
+	  <div class="row"><div class="col-md-12"><a href="cluburi/" title="Cluburi Liga 1">
+			<div class="w-button">
+              <div class="w-button-text">Toate cluburile <i class="ion-arrow-right-c"></i></div>
+			</div>
+		  <br />
+		</a></div>
+	  </div>
+	 <div class="row">
+		 <div class="col-md-12" id="home-stats-main-container">
+		 	<div class="home-stats-item" style="background: url('images/bg/stats/echipe.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td>
+                            <div class="stats-value">16</div>
+                            <div class="stats-title">Echipe</div>
+                        </td>
+                    </tr>
+				</table>
+			</div>
+			 <div class="home-stats-item" style="background: url('images/bg/stats/jucatori.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td>
+                            <div class="stats-value">469</div>
+                            <div class="stats-title">Jucatori</div>
+				        </td>
+                    </tr>
+				</table>
+			</div>
+			 <div class="home-stats-item" style="background: url('images/bg/stats/meciuri-jucate.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td>
+                            <div class="stats-value">168</div>
+                            <div class="stats-title">Meciuri jucate</div>
+				        </td>
+                    </tr>
+				</table>
+			</div>
+			 <div class="home-stats-item" style="background: url('images/bg/stats/victorii.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td>
+                            <div class="stats-value">108</div>
+                            <div class="stats-title">Victorii</div>
+				        </td>
+                    </tr>
+				</table>
+			</div>
+            <div class="home-stats-item" style="background: url('images/bg/stats/goluri.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td>
+                            <div class="stats-value">436</div>
+                            <div class="stats-title">Goluri</div>
+				         </td>
+                    </tr>
+				</table>
+			</div>
+			 <div class="home-stats-item" style="background: url('images/bg/stats/egaluri.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td>
+                            <div class="stats-value">60</div>
+                            <div class="stats-title">Egaluri</div>
+				         </td>
+                    </tr>
+				</table>
+			</div>
+			 <div class="home-stats-item" style="background: url('images/bg/stats/cartonase-galbene.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td>
+                            <div class="stats-value">746</div>
+                            <div class="stats-title">Cartonașe galbene</div>
+				         </td>
+                    </tr>
+				</table>
+			</div>
+			 <div class="home-stats-item" style="background: url('images/bg/stats/cartonase-rosii.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td>
+                            <div class="stats-value">36</div>
+                            <div class="stats-title">Cartonașe roșii</div>
+				         </td>
+                    </tr>
+				</table>
+			</div>
+                         
+                         <div class="home-stats-big" style="background: url('images/bg/stats/cea-mai-ofensiva-echipa.jpg');">
+				<table class="home-stats-container">
+                    <tr>
+                        <td style="vertical-align: top;">
+                            <div class="stats-title-big">Cea mai ofensivă echipă</div>
+                            <div class="stats-award">FCSB</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>                   
+                            <div class="stats-value">38</div>
+                            <div class="stats-title">Goluri</div>
+                            <img class="stats-echipa-logo lazyload" data-src="files/echipa/5e537262549aaechipa__0007_Layer-6.png">
+                        </td>
+
+                    </tr>
+				</table>
+			</div>
+		 	<div class="home-stats-big" style="background: url('images/bg/stats/cel-mai-bun-marcator.jpg');">
+                
+				<table class="home-stats-container">
+                    <tr>
+                        <td style="vertical-align: top;">
+                            <div class="stats-title-big">Cel mai bun marcator</div>
+                            <div class="stats-award">OLARU DARIUS DUMITRU</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="stats-value">10</div>
+                            <div class="stats-title">Goluri</div>
+                            <img class="stats-echipa-player lazyload" data-src="files/jucator/64b026c11e52bDarius Olaru 01.png">
+                        </td>
+                    </tr>
+				</table>
+			</div>
+             			 </div>
+	  </div>
+	   <br />
+	   <br />
+  </div>
+</div>
+<!--Page Wrapper ends--> 
+<!--Footer Starts-->
+<div style="width: 100%;background: #f2f2f2;padding: 20px;border-top: 2px solid #e6e6e6;">
+    <div class="row">
+        <div class="col-md-12">
+    		<div class="swiper-container coupon-wrap-parteneri">
+				<div class="swiper-wrapper">
+                    <div class="swiper-slide">       
+                            <a target="_blank" href="https://www.audi.ro">
+                                <img src="images/footer/audi.png" style="">
+                            </a>
+                    </div>
+					<div class="swiper-slide">       
+                            <a target="_blank" href="https://www.primasport.ro/">
+                                <img src="images/footer/prima2.png" style="">
+                            </a>
+                    </div>
+                     <div class="swiper-slide"> 
+                        <a target="_blank" href="http://www.digisport.ro">
+                            <img src="images/footer/digisport2.png" style="">
+                        </a>
+                    </div>
+                     <div class="swiper-slide"> 
+                        <a target="_blank" href="https://orangesport.ro/">
+                            <img src="images/footer/telekom2.png?v=2">
+                        </a>
+                    </div>
+                      <div class="swiper-slide"> 
+                        <a target="_blank" href="https://superbet.ro/">
+                            <img src="images/footer/superliga-2.png" style="">
+                        </a>
+                    </div>
+                      <div class="swiper-slide"> 
+                        <a target="_blank" href="http://www.select-sport.com">
+                            <img src="images/footer/nike-select2.png" style="">
+                        </a>
+                    </div>
+
+                     <div class="swiper-slide"> 
+                        <a target="_blank" href="http://www.srr.ro">
+                            <img src="images/footer/radio-romania-2.png">
+                        </a>
+                    </div>
+                      <div class="swiper-slide"> 
+                        <a target="_blank" href="https://www.ea.com">
+                            <img src="images/footer/ea-sports-2.png">
+                        </a>
+                    </div>
+                     <div class="swiper-slide"> 
+                        <a target="_blank" href="https://ultimate-champions.com/">
+                            <img src="images/footer/uc-logo.png">
+                        </a>
+                    </div>
+                     <div class="swiper-slide"> 
+                        <a target="_blank" href="https://www.imgarena.com/">
+                            <img src="images/footer/imgarena-2.png">
+                        </a>
+                    </div>
+                    <div class="swiper-slide"> 
+                        <a target="_blank" href="https://superligafantasy.ro/">
+                            <img src="images/footer/superligafantasy-2.png">
+                        </a>
+                    </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer-wrapper no-pad-tb footer-fixed v1" style="">
+    <div class="footer-top-area section-padding">
+    <div class="container">
+      <div class="row nav-folderized">
+        <div class="col-lg-3 col-md-12">
+          <div class="footer-content nav">
+            <h2 class="title">Utile</h2>
+            <ul class="list">
+			  <li><a class="link-hov style2" href="/noutati">Comunicate de presă</a></li>
+			  <li><a class="link-hov style2" href="/protectia-datelor-personale">Protectia datelor personale</a></li>
+              <li><a class="link-hov style2" href="/despre-lpf">Despre LPF</a></li>
+              <li><a class="link-hov style2" href="/contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="footer-content nav">
+            <h2 class="title">SUPERLIGA</h2>
+            <ul class="list">
+			  <li><a class="link-hov style2" href="cluburi">Cluburi SUPERLIGA</a></li>
+              <li><a class="link-hov style2" href="liga-1">Clasament SUPERLIGA</a></li>
+              <li><a class="link-hov style2" href="etape-liga-1/1">Etape SUPERLIGA</a></li>
+              <li><a class="link-hov style2" href="liga-1">Statistici</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-12">
+          <div class="footer-content nav">
+            <h2 class="title">Contact</h2>
+            <ul class="list footer-list">
+              <li>
+                <div class="contact-info">
+                  <div class="icon"> <i class="ion-ios-location"></i> </div>
+                  <div class="text">Str. Alexandru Vitzu, nr. 2A, sector 5, București, România</div>
+                </div>
+              </li>
+              <li>
+                <div class="contact-info">
+                  <div class="icon"> <i class="ion-email"></i> </div>
+                  <div class="text"><a href="#">office@lpf.ro</a></div>
+                </div>
+              </li>
+              <li>
+                <div class="contact-info">
+                  <div class="icon"> <i class="ion-ios-telephone"></i> </div>
+                  <div class="text">+40 21-412.0165</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+	  <div class="col-lg-3 col-md-12">
+          <div class="footer-logo"><a href="https://www.ead.ro"><img data-src="images/ead.png" alt="ead" class="lazyload"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+          <p>
+              &copy; LPF 2024. Toate drepturile rezervate.<br />
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer ends--> 
+<!--plugin js--> 
+<!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+<script src="js/plugin.js"></script> 
+<!--Main js--> 
+<script src="js/main.js?v=7780"></script> 
+<!-- Slider --> 
+<script type="text/javascript" src="js/jquery.easing.min.js"></script> 
+<script type="text/javascript" src="js/masterslider.min.js"></script> 
+<script type="text/javascript" src="js/scripts.js?v=0.13"></script> 
+<script type="text/javascript" src="js/masterslider.js"></script> 
+<script type="text/javascript" src="js/lazysizes.js"></script> 
+</body>
+</html>
